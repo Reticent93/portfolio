@@ -1,0 +1,11 @@
+body {
+    background-color: #252627;
+}
+
+.App {
+    max-width: 100%;
+}
+
+span:hover, span:visited, span:link, span:active {
+    color: #48cfad;
+}
