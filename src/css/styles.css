@@ -10,6 +10,78 @@ span:hover, span:visited, span:link, span:active {
     color: #48cfad;
 }
 
-.btn-default {
+.navbar {
+    background-color: #181818;
+}
 
+.text a {
+    padding: 12px 25px;
+    background-color: transparent;
+    border: 3px solid #48cfad;
+    color: #48cfad;
+    font-size: .8rem;
+    letter-spacing: 2px;
+    position: relative;
+    top: 80px;
+    overflow: hidden;
+    transition: .5s;
+    display: inline-block;
+}
+
+.text a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.text a::before {
+    content: "";
+    background-color: #48cfad;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0;
+    z-index: -1;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.text a:hover::before {
+    height: 100%;
+    text-decoration: none;
+}
+
+.btn-default {
+    border: 3px solid #48cfad;
+    padding: 15px 30px;
+    border-radius: 50px;
+    color: #48cfad;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    background-color: #252627;
+    outline: none;
+    cursor: pointer;
+    align-items: center;
+}
+
+.btn-default:hover {
+    color: #fff;
+}
+
+btn-default::before {
+    content: "";
+    background-color: #48cfad;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0;
+    z-index: -1;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.btn-default:hover::before {
+    height: 100%;
+    text-decoration: none;
 }

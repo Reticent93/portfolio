@@ -9,8 +9,8 @@ import '../css/styles.css';
 export default function Main() {
     return (
         <div className="container-fluid">
-            <div className="row">
-                <div className="col text text-white">
+            <div className="row justify-content-start ">
+                <div className="col-4 text text-white">
                     <h1>
                         <span>H</span>
                         <span>i</span>
@@ -32,54 +32,80 @@ export default function Main() {
                         <span>r</span>
                         <span>o</span>
                         <br />
-                        <span>Full Stack Web Developer</span>
+                        <span>F</span>
+                        <span>u</span>
+                        <span>l</span>
+                        <span>l </span>
+                        <span>S</span>
+                        <span>t</span>
+                        <span>a</span>
+                        <span>c</span>
+                        <span>k </span>
+
+                        <span>W</span>
+                        <span>e</span>
+                        <span>b </span>
+
+                        <span>D</span>
+                        <span>e</span>
+                        <span>v</span>
+                        <span>e</span>
+                        <span>l</span>
+                        <span>o</span>
+                        <span>p</span>
+                        <span>e</span>
+                        <span>r</span>
+                        <span>.</span>
                     </h1>
-                    <button className="btn btn-default">
                     <a href="#contact">Contact Me</a>
-                    </button>
                 </div>
             </div>
-            <div className="container-projects" id="projects">
+            <div className="container-fluid d-flex" id="projects">
                 <div className="projects">
                     <h1>Projects</h1>
                 </div>
-                <div className="pictures-category">
-                    <div className="auth">
+
+                <div className="row pictures-category">
+
+
+                    <figure className="col-2 auth p-0" >
                         <a href="authentication">
-                            <img src={Authentication} alt="authentication" />
+                            <img src={Authentication} alt="authentication" className='img-fluid' />
                         </a>
-                        <p>This is about backend authentication using Node.js and Express.</p>
-                        <a target="blank" href="https://github.com/Reticent93/Sprint-Challenge-Authentication">
-                            <button className="active">Code</button>
+                        <p className='card-text text-white'>This is about backend authentication using Node.js and Express.</p>
+                        <a target="blank" href="https://github.com/Reticent93/Sprint-Challenge-Authentication"
+                            className="btn btn-default">Code
                         </a>
-                    </div>
-                    <div className="game">
+                    </figure>
+                    <figure className="col-2 game">
                         <a href="life">
-                            <img src={game_of_life} alt="Game of Life" />
+                            <img src={game_of_life} alt="Game of Life" className='figure-img img-fluid rounded mx-auto' />
                         </a>
                         <p>This is Conway's Game of Life. Click the image to see how it works.</p>
                         <a target="blank" href="https://github.com/Reticent93/CS-Build-Week-1">
-                            <button className="active">Code</button>
+                            <button className="btn btn-default">Code</button>
                         </a>
-                    </div>
-                    <div className="wars">
+                    </figure>
+
+                    <figure className="col-2 wars">
                         <a href="star-wars">
-                            <img src={star_wars_api} alt="Star Wars" />
+                            <img src={star_wars_api} alt="Star Wars" className='figure-img img-fluid rounded mx-auto' />
                         </a>
                         <p>This is a React app using the Star Wars API. Click the image to see how it works.</p>
                         <a target="blank" href="https://dazzling-blackwell-59fa62.netlify.app/">
-                            <button className="active">Code</button>
+                            <button className="btn btn-default">Code</button>
                         </a>
-                    </div>
-                    <div className="smurfs">
+                    </figure>
+                    <figure className="col-2 smurfs">
                         <a href="smurf">
-                            <img src={smurf} alt="Smurf" />
+                            <img src={smurf} alt="Smurf" className='figure-img img-fluid rounded mx-auto' />
                         </a>
                         <p>This is an app using Redux. Click the image to see how it works.</p>
                         <a target="blank" href="https://github.com/Reticent93/Sprint-Challenge-State-Management-Smurfs">
-                            <button className="active">Code</button>
+                            <button className="btn btn-default">Code</button>
                         </a>
-                    </div>
+                    </figure>
+
                 </div>
             </div>
             <div className="skills" id="skills">
