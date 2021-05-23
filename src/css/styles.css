@@ -65,7 +65,7 @@ span:hover, span:visited, span:link, span:active {
 }
 
 .btn-default:hover {
-    color: #fff;
+    color: #B57FDC;
 }
 
 btn-default::before {
@@ -85,3 +85,9 @@ btn-default::before {
     height: 100%;
     text-decoration: none;
 }
+
+.projects h1{
+    font-size: 10rem;
+    color: #707070
+}
+

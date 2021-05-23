@@ -10,7 +10,6 @@ function App() {
     <div className="App">
         <Nav />
       <Main />
-    <h1 className='text-white'>App</h1>
     </div>
       </>
   );
