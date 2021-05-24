@@ -3,14 +3,13 @@ import database from '../img/database.jpg';
 import game_of_life from '../img/game_of_life.jpg';
 import Star_Wars from '../img/Star_Wars.jpg';
 import smurf from '../img/smurf.jpg';
-import space_photo from '../img/space_photo.jpg';
 import '../css/styles.css';
 
 export default function Main() {
     return (
         <div className="container-fluid">
-            <div className="row justify-content-start ">
-                <div className="col-4 text text-white">
+            <div className="row ms-5 justify-content-start text-start">
+                <div className="text text-white">
                     <h1>
                         <span>H</span>
                         <span>i</span>
@@ -57,7 +56,7 @@ export default function Main() {
                         <span>r</span>
                         <span>.</span>
                     </h1>
-                    <a href="#contact">Contact Me</a>
+                    <a href="#footer">Contact Me</a>
                 </div>
             </div>
             <div className="container pt-5" id="projects">
@@ -121,7 +120,7 @@ export default function Main() {
                 </div>
             </div>
             <div className="skills container pt-5" id="skills">
-                <h1 className="text-end w-75">Skills</h1>
+                <h1 className="text-center w-75">Skills</h1>
                 <div className="skills-info text-start">
                     <h3>Front End:</h3>
                     <p>CSS / Javascript / React / Redux / Bootstrap / LESS</p>
@@ -131,16 +130,17 @@ export default function Main() {
                     <p>Git / GitHub / Heroku / Netlify</p>
                 </div>
             </div>
-            <div className="container">
+            <div className="container pb-5">
                 <div className="row about pt-5" id="about">
                     <h1 className='text-start'>About</h1>
                     <div
-                        className="me-info col-9 align-self-start justify-content-center bg-dark bg-gradient text-white p-3 shadow-lg">
+                        className="me-info ms-5 col-9 align-self-center justify-content-center bg-dark bg-gradient text-white p-3 shadow-lg">
                         <p>Hello. My name is Greg Renfro and I am a Full Stack Web Developer. I enjoy building
-                            websites. </p>
+                            websites. I actually got into coding by accident. I was offered a role in a film and
+                            my character was an Elon Musk type. From there I was hooked on software coding. In 2019 I
+                            started at Lambda School where I fell more in love with coding. If you want to succeed as
+                            bad as you want to breathe... </p>
                     </div>
-
-                        <img src={space_photo} alt="Space" className='img-fluid rounded-5 align-self-end w-25'/>
 
                 </div>
             </div>

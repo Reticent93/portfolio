@@ -68,25 +68,10 @@ span:hover, span:visited, span:link, span:active {
     color: #BEBEBE;
 }
 
-/*btn-default::before {*/
-/*    content: "";*/
-/*    background-color: #48cfad;*/
-/*    position: absolute;*/
-/*    left: 0;*/
-/*    top: 0;*/
-/*    width: 100%;*/
-/*    height: 0;*/
-/*    z-index: -1;*/
-/*    transition: .5s;*/
-/*    text-decoration: none;*/
-/*}*/
-
 .btn-default:hover::before {
     height: 100%;
     text-decoration: none;
 }
-
-
 
 .projects h1,
 .skills h1, .about h1{
@@ -96,7 +81,8 @@ span:hover, span:visited, span:link, span:active {
     margin-bottom: -50px;
 }
 
-.skills-info h3, p {
+.skills-info h3, p,
+.card-footer {
     color: #bebebe
 }
 
