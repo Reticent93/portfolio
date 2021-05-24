@@ -3,6 +3,7 @@ import database from '../img/database.jpg';
 import game_of_life from '../img/game_of_life.jpg';
 import Star_Wars from '../img/Star_Wars.jpg';
 import smurf from '../img/smurf.jpg';
+import space_photo from '../img/space_photo.jpg';
 import '../css/styles.css';
 
 export default function Main() {
@@ -11,49 +12,22 @@ export default function Main() {
             <div className="row ms-5 justify-content-start text-start">
                 <div className="text text-white">
                     <h1>
-                        <span>H</span>
-                        <span>i</span>
+                        <span>Hi</span>
                         <span>,</span><br/>
-                        <span>I</span>
+                        <span>I'm </span>
 
-                        <span>'</span>
-                        <span>m </span>
+                        <span>Greg </span>
 
-                        <span>G</span>
-                        <span>r</span>
-                        <span>e</span>
-                        <span>g </span>
 
-                        <span>R</span>
-                        <span>e</span>
-                        <span>n</span>
-                        <span>f</span>
-                        <span>r</span>
-                        <span>o</span>
+                        <span>Renfro</span>
+                        <span>,</span>
                         <br/>
-                        <span>F</span>
-                        <span>u</span>
-                        <span>l</span>
-                        <span>l </span>
-                        <span>S</span>
-                        <span>t</span>
-                        <span>a</span>
-                        <span>c</span>
-                        <span>k </span>
+                        <span>Full </span>
+                        <span>Stack </span>
 
-                        <span>W</span>
-                        <span>e</span>
-                        <span>b </span>
+                        <span>Web </span>
 
-                        <span>D</span>
-                        <span>e</span>
-                        <span>v</span>
-                        <span>e</span>
-                        <span>l</span>
-                        <span>o</span>
-                        <span>p</span>
-                        <span>e</span>
-                        <span>r</span>
+                        <span>Developer</span>
                         <span>.</span>
                     </h1>
                     <a href="#footer">Contact Me</a>
@@ -138,12 +112,22 @@ export default function Main() {
                         <p>Hello. My name is Greg Renfro and I am a Full Stack Web Developer. I enjoy building
                             websites. I actually got into coding by accident. I was offered a role in a film and
                             my character was an Elon Musk type. From there I was hooked on software coding. In 2019 I
-                            started at Lambda School where I fell more in love with coding. If you want to succeed as
+                            attended at Lambda School where I fell more in love with coding. If you want to succeed as
                             bad as you want to breathe... </p>
-                    </div>
 
+                    </div>
+                    <div>
+                        <img src={space_photo} alt="space" className='float-end w-25'/>
+                    </div>
                 </div>
+
             </div>
+            {/*<div className='scroll'>*/}
+            {/*<a className="text-white-50" href="#navbar">↑</a>*/}
+            {/*</div>*/}
+            <div className="scroll text-white-50"><a href='#navbar'><span></span><span></span><span></span></a></div>
         </div>
+
+
     );
 }
