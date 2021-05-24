@@ -60,10 +60,10 @@ export default function Main() {
                     <a href="#contact">Contact Me</a>
                 </div>
             </div>
-            <div className="container" id="projects">
+            <div className="container pt-5" id="projects">
 
                 <div className="projects text-start">
-                    <h1>Projects</h1>
+                    <h1 className='text-start'>Projects</h1>
                 </div>
 
                 <div className="row  pictures-category">
@@ -86,9 +86,10 @@ export default function Main() {
                         <a href="life">
                             <img src={game_of_life} alt="Game of Life" className='img-fluid figure-img rounded-3'/>
                         </a>
-                        <p className='card-text text-white'>This is Conway's Game of Life. Click the image to see how it works.</p>
+                        <p className='card-text text-white'>This is Conway's Game of Life. Click the image to see how it
+                            works.</p>
                         <a target="blank" href="https://github.com/Reticent93/CS-Build-Week-1"
-                            className="btn btn-default">Code
+                           className="btn btn-default">Code
                         </a>
                     </figure>
 
@@ -97,31 +98,31 @@ export default function Main() {
                         <a href="star-wars">
                             <img src={Star_Wars} alt="Star Wars" className='img-fluid figure-img rounded-3'/>
                         </a>
-                        <p className='card-text text-white'>This is a React app using the Star Wars API. Click the image to see how it works.</p>
+                        <p className='card-text text-white'>This is a React app using the Star Wars API. Click the image
+                            to see how it works.</p>
                         <a target="blank" href="https://dazzling-blackwell-59fa62.netlify.app/"
-                            className="btn btn-default">Code
+                           className="btn btn-default">Code
                         </a>
                     </div>
-
 
 
                     <figure className="col-4 smurfs">
                         <a href="smurf">
                             <img src={smurf} alt="Smurf" className='img-fluid figure-img rounded-3'/>
                         </a>
-                        <p className='card-text text-white'>This is an app using Redux. Click the image to see how it works.</p>
+                        <p className='card-text text-white'>This is an app using Redux. Click the image to see how it
+                            works.</p>
                         <a target="blank" href="https://github.com/Reticent93/Sprint-Challenge-State-Management-Smurfs"
-                            className="btn btn-default">Code
+                           className="btn btn-default">Code
                         </a>
                     </figure>
 
 
-
                 </div>
             </div>
-            <div className="skills container " id="skills">
-                <h1 className="justify-content-end">Skills</h1>
-                <div className="skills-info">
+            <div className="skills container pt-5" id="skills">
+                <h1 className="text-end w-75">Skills</h1>
+                <div className="skills-info text-start">
                     <h3>Front End:</h3>
                     <p>CSS / Javascript / React / Redux / Bootstrap / LESS</p>
                     <h3>Backend:</h3>
@@ -130,14 +131,18 @@ export default function Main() {
                     <p>Git / GitHub / Heroku / Netlify</p>
                 </div>
             </div>
-            <div className="about" id="about">
-                <h1>About</h1>
-                <div className="me-info">
-                    <p className='text-white'>
-                        Hello. My name is Greg Renfro and I am a Full Stack Web Developer. I enjoy building websites.
-                    </p>
+            <div className="container">
+                <div className="row about pt-5" id="about">
+                    <h1 className='text-start'>About</h1>
+                    <div
+                        className="me-info col-9 align-self-start justify-content-center bg-dark bg-gradient text-white p-3 shadow-lg">
+                        <p>Hello. My name is Greg Renfro and I am a Full Stack Web Developer. I enjoy building
+                            websites. </p>
+                    </div>
+
+                        <img src={space_photo} alt="Space" className='img-fluid rounded-5 align-self-end w-25'/>
+
                 </div>
-                <img src={space_photo} alt="Space" className='img-fluid w-50 h-auto rounded-3' />
             </div>
         </div>
     );
