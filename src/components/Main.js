@@ -65,7 +65,6 @@ export default function Main() {
                         </a>
                     </figure>
 
-                    <div className="w-100"></div>
                     <figure className="col-4 wars">
                         <a target='blank' href="https://infallible-cori-664a05.netlify.app/">
                             <img src={Star_Wars} alt="Star Wars" className='img-fluid figure-img rounded-3'/>
