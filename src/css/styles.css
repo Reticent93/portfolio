@@ -183,7 +183,7 @@ div.scroll {
     }
 }
 
-@media screen and (min-width: 801px) {
+@media screen and (min-width: 801px)and (max-width: 991px) {
     .projects h1,
     .skills h1, .about h1 {
         width: 80%;

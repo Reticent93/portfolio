@@ -2,7 +2,6 @@ import React from 'react';
 import database from '../img/database.jpg';
 import beauty from '../img/beauty.jpg';
 import Star_Wars from '../img/Star_Wars.jpg';
-import smurf from '../img/smurf.jpg';
 import space_photo from '../img/space_photo.jpg';
 import '../css/styles.css';
 
@@ -68,24 +67,12 @@ export default function Main() {
 
                     <div className="w-100"></div>
                     <figure className="col-4 wars">
-                        <a href="star-wars">
+                        <a target='blank' href="https://infallible-cori-664a05.netlify.app/">
                             <img src={Star_Wars} alt="Star Wars" className='img-fluid figure-img rounded-3'/>
                         </a>
                         <p className='card-text text-white'>This is a React app using the Star Wars API. Click the image
                             to see how it works.</p>
-                        <a target="blank" href="https://dazzling-blackwell-59fa62.netlify.app/"
-                           className="btn btn-default">Code
-                        </a>
-                    </figure>
-
-
-                    <figure className="col-4 smurfs">
-                        <a href="smurf">
-                            <img src={smurf} alt="Smurf" className='img-fluid figure-img rounded-3'/>
-                        </a>
-                        <p className='card-text text-white'>This is an app using Redux. Click the image to see how it
-                            works.</p>
-                        <a target="blank" href="https://github.com/Reticent93/Sprint-Challenge-State-Management-Smurfs"
+                        <a target="blank" href="https://github.com/Reticent93/star-wars"
                            className="btn btn-default">Code
                         </a>
                     </figure>

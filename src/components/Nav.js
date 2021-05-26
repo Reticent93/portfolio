@@ -6,7 +6,7 @@ function Nav() {
             <div className="container-fluid nav-container">
 
             		<span className="navbar-brand text-white-50">
-					<h1>Greg Renfro</h1>
+					<h1><span>Greg Renfro</span></h1>
 		 		</span>
                 <div className="nav row">
                     <div className="col justify-content-end">
