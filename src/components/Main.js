@@ -3,6 +3,7 @@ import database from '../img/database.jpg';
 import beauty from '../img/beauty.jpg';
 import Star_Wars from '../img/Star_Wars.jpg';
 import space_photo from '../img/space_photo.jpg';
+import dreams from '../img/dreams.jpg';
 import '../css/styles.css';
 
 export default function Main() {
@@ -61,6 +62,17 @@ export default function Main() {
                         <p className='card-text text-white'>A website that sells teeth and tanning products. Click the image to see how it
                             works.</p>
                         <a target="blank" href="https://github.com/Reticent93/beauty-la-creme"
+                           className="btn btn-default">Code
+                        </a>
+                    </figure>
+
+                    <figure className="col-4 auth">
+                        <a target='blank' href="https://angry-montalcini-a3ad21.netlify.app/">
+                            <img src={dreams} alt="authentication"
+                                 className='img-fluid figure-img rounded-3'/>
+                        </a>
+                        <p className='card-text text-white'>This app allows you to add memories and hashtags using mongodb and Express.</p>
+                        <a target="blank" href="https://github.com/Reticent93/reminiscent"
                            className="btn btn-default">Code
                         </a>
                     </figure>
