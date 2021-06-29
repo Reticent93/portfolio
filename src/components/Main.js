@@ -43,7 +43,8 @@ export default function Main() {
 
 
                     <figure className="col-4 auth">
-                        <a href="authentication">
+                        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+                        <a href="">
                             <img src={database} alt="authentication"
                                  className='img-fluid figure-img rounded-3'/>
                         </a>
@@ -119,9 +120,6 @@ export default function Main() {
                     </div>
                 </div>
             </div>
-            {/*<div className='scroll'>*/}
-            {/*<a className="text-white-50" href="#navbar">↑</a>*/}
-            {/*</div>*/}
         </div>
 
 
