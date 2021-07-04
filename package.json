@@ -1,8 +1,8 @@
 {
   "name": "portfolio",
+  "homepage": "https://renfrois.me",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://renfrois.me/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",

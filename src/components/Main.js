@@ -72,7 +72,7 @@ export default function Main() {
                             <img src={dreams} alt="authentication"
                                  className='img-fluid figure-img rounded-3'/>
                         </a>
-                        <p className='card-text text-white'>This app allows you to add memories and hashtags using mongodb and Express.</p>
+                        <p className='card-text text-white'>This authenticated CRUD app allows you to sign in, add memories, likes, and hashtags using MongoDB.</p>
                         <a target="blank" href="https://github.com/Reticent93/reminiscent"
                            className="btn btn-default">Code
                         </a>
